@@ -20,7 +20,6 @@ const Contact = () => {
                {
           name: form.name,      // ✅ matches {{name}}
           reply_to: form.email, // ✅ matches {{reply_to}}
-          title: form.title,    // ✅ matches {{title}} (used in subject)
           message: form.message // ✅ matches {{message}} (add this to template body)
         },
 
@@ -76,7 +75,7 @@ const Contact = () => {
           value={form.message}
           onChange={handleChange}
           placeholder="Your Message"
-          rows="5"
+          rows={5}
           className="w-full p-3 mb-4 border rounded-xl focus:outline-none focus:ring focus:ring-indigo-400"
           required
         ></textarea>
