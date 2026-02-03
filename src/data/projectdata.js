@@ -13,7 +13,7 @@ export const projects = [
         description:
           "A mini e-commerce shopping cart app with login/signup (Firebase Auth), real-time database integration for storing cart data, and responsive UI.",
         tech: ["React", "Firebase", "Tailwind", "Context API"],
-        link: "https://yourshoppingcartapp.com", // live deployed link
+        link: "https://react-shoppingcart-firebase.vercel.app/", // live deployed link
       },
 
       {
